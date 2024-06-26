@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  background-color: hsl(62, 71%, 36%);
+  background-color: rgba(84, 4, 67, 0.486);
 }
 .main-container{
   display: flex;
@@ -17,8 +17,8 @@ body{
 }
 .app-heading{
   padding: 4px;
-  color: rgb(206, 21, 113);  
-  /* text-align: center; */
+  color: rgba(9, 1, 19, 0.705);  
+   text-align: center;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-transform: uppercase;
 }
@@ -64,8 +64,8 @@ body{
 .list-item{
   list-style-type: none;
   /* background-color: #596e8b; */
-  border:2px solid #330fe3;
-  color:hsl(266, 85%, 50%);
+  border:2px solid hsl(115, 88%, 47%);
+  color:hwb(266 1% 87%);
   padding:3px;
   padding-left: 5px;
   border-radius: 5px; 
@@ -81,7 +81,7 @@ body{
   right: 10px;
 }
 .icons i{
-  margin: 4px;
+  margin: 8px;
   font-size: large;
   cursor: pointer;
   transition: 0.1s;   
@@ -90,5 +90,5 @@ body{
   transform: scale(1.2);  
 }
 .icon-delete:hover{
-  color: #e1ff00;
+  color: hsl(0, 100%, 50%);
 }
